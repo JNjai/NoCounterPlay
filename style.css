@@ -1,0 +1,105 @@
+body {
+  background: url('https://imgur.com/OzoKvwS.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+* {box-sizing: border-box}
+.mySlides1, {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1050px;
+  position: relative;
+  margin: auto;
+}
+/* navbar */
+.navcontainer {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+}
+
+.header{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+}
+.header2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+}
+.brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;  /* 50% of your logo width */
+  display: block;
+
+.navbar {
+    position: relative;
+}
+
+/* Construction Page*/
+.masthead {
+  color: white;
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://i.imgur.com/OzoKvwS.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* Footer */
+
